@@ -1,6 +1,6 @@
 Package.describe({
   name: 'wesleyfsmith:schema-fields',
-  version: '1.1.2',
+  version: '1.1.3',
   // Brief, one-line summary of the package.
   summary: 'Easily grab a list of fields off simple-schema.',
   // URL to the Git repository containing the source code for this package.
