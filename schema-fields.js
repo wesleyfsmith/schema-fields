@@ -2,7 +2,7 @@
 import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
 
 checkNpmVersions({
-  'simpl-schema': '0.14.x'
+  'simpl-schema': '0.x.x'
 }, 'wesleyfsmith:schema-fields');
 
 const SimpleSchema = require('simpl-schema');
