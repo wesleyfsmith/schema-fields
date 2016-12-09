@@ -1,5 +1,14 @@
+
+import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
+
+checkNpmVersions({
+  'simpl-schema': '0.14.x'
+}, 'wesleyfsmith:schema-fields');
+
+import SimpleSchema from 'simpl-schema';
+
 export const getFields = (schema, isObject) => {
-  schema= schema._schema;
+  schema = schema._schema;
 
   //TODO:
 
