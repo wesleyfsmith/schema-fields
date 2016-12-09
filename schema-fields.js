@@ -5,7 +5,7 @@ checkNpmVersions({
   'simpl-schema': '0.14.x'
 }, 'wesleyfsmith:schema-fields');
 
-import SimpleSchema from 'simpl-schema';
+const SimpleSchema = require('simpl-schema');
 
 export const getFields = (schema, isObject) => {
   schema = schema._schema;
