@@ -14,7 +14,6 @@ Package.onUse(function(api) {
   api.versionsFrom('1.3');
   api.use('ecmascript');
   api.use('mongo');
-  api.use('aldeed:simple-schema@1.5.3')
   api.use('tmeasday:check-npm-versions@0.3.1');
   api.mainModule('schema-fields.js');
 });

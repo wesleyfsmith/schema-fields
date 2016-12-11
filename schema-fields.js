@@ -1,9 +1,27 @@
 
 import { checkNpmVersions } from 'meteor/tmeasday:check-npm-versions';
 
-checkNpmVersions({
-  'simpl-schema': '0.x.x'
-}, 'wesleyfsmith:schema-fields');
+// checkNpmVersions({
+//   'simpl-schema': '0.0.x'
+// }, 'wesleyfsmith:schema-fields');
+
+
+//TODO for when we switch to new simpl schema version
+const useProto = false;
+
+// SimpleSchema = require('simpl-schema');
+
+
+// let SimpleSchema = SimpleSchema;
+//
+// if (!SimpleSchema) { //for backwards compatibility
+//   SimpleSchema = require('simpl-schema');
+// } else {
+//   useProto = true;
+// }
+
+SimpleSchema = require('simpl-schema');
+console.log(SimpleSchema.prototype);
 
 export const getFields = (schema, isObject) => {
   schema = schema._schema;
