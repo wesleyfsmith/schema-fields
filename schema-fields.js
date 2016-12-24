@@ -20,8 +20,8 @@ const useProto = false;
 //   useProto = true;
 // }
 
-SimpleSchema = require('simpl-schema');
-console.log(SimpleSchema.prototype);
+// SimpleSchema = require('simpl-schema');
+// console.log(SimpleSchema.prototype);
 
 export const getFields = (schema, isObject) => {
   schema = schema._schema;
